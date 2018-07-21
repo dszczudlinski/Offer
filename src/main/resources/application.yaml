@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/offer
+    username: root
+    password: admin
+---
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
